@@ -84,7 +84,7 @@ def recommend_books(
 categories = ["All"] + sorted(books["simple_categories"].unique())
 tones = ["All"] + ["Happy", "Surprising", "Angry", "Suspenseful", "Sad"]
 
-with gr.Blocks(theme = gr.themes.Glass()) as dashboard:
+with gr.Blocks() as dashboard:
     gr.Markdown("# Semantic Book Recommender")
 
     with gr.Row():
@@ -102,4 +102,4 @@ with gr.Blocks(theme = gr.themes.Glass()) as dashboard:
 
 
 if __name__ == "__main__":
-    dashboard.launch()
+    dashboard.launch(share=True, theme = gr.themes.Glass())
