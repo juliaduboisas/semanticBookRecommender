@@ -1,6 +1,6 @@
 # Semantic Book Recommender
 
-This is a semantic book recommender built following the tutorial available at [https://www.youtube.com/watch?v=Q7mS1VHm3Yw]https://www.youtube.com/watch?v=Q7mS1VHm3Yw. Instead of the OpenAI model used in the tutorial, the [https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2]sentence-transformers/all-MiniLM-L6-v2 model was used in order to create the embeddings for the vector search.
+This is a semantic book recommender built following the tutorial available at [https://www.youtube.com/watch?v=Q7mS1VHm3Yw](https://www.youtube.com/watch?v=Q7mS1VHm3Yw). Instead of the OpenAI model used in the tutorial, the [https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2](sentence-transformers/all-MiniLM-L6-v2) model was used in order to create the embeddings for the vector search.
 
 ## How to run the application
 
