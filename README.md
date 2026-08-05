@@ -16,4 +16,4 @@ git clone git@github.com:juliaduboisas/semanticBookRecommender.git
 python gradio-dashboard.py
 ```
 
-3. Open the local URL signaled, usually [http://127.0.0.1:7860]http://127.0.0.1:7860
+3. Open the local URL signaled, usually [http://127.0.0.1:7860](http://127.0.0.1:7860)
